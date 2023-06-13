@@ -2,9 +2,15 @@ package com.ifr.informationformregistration.repository;
 
 import com.ifr.informationformregistration.pojo.User;
 import org.springframework.stereotype.Repository;
-
 import java.util.ArrayList;
 import java.util.List;
+
+// This file is made by EmJey
+// Project: Information Form Registration
+// FileName: UserRepository
+// Date: 2023/06/13
+// Email: emjeydev@gmail.com
+// Github: emjeydev
 
 @Repository
 public class UserRepository {
