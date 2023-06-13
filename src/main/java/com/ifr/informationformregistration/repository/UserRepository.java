@@ -1,6 +1,6 @@
 package com.ifr.informationformregistration.repository;
 
-import com.ifr.informationformregistration.POJO.UserInformation;
+import com.ifr.informationformregistration.pojo.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -8,21 +8,21 @@ import java.util.List;
 
 @Repository
 public class UserRepository {
-    private List<UserInformation> users = new ArrayList<>();
+    private List<User> users = new ArrayList<>();
 
-    public List<UserInformation> getUsers() {
+    public List<User> getUsers() {
         return users;
     }
     
-    public UserInformation getUser(int index) {
+    public User getUser(int index) {
         return users.get(index);
     }
     
-    public void saveUser(UserInformation user) {
+    public void saveUser(User user) {
         users.add(user);
     }
     
-    public void updateUser(int index, UserInformation user) {
+    public void updateUser(int index, User user) {
         users.set(index, user);
     }
     

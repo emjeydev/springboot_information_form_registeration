@@ -1,4 +1,4 @@
-package com.ifr.informationformregistration.POJO;
+package com.ifr.informationformregistration.pojo;
 
 import java.util.UUID;
 
@@ -9,7 +9,7 @@ import java.util.UUID;
 // Email: emjeydev@gmail.com
 // Github: emjeydev
 
-public class UserInformation {
+public class User {
     private UUID id;
     private String firstName;
     private String lastName;
@@ -18,7 +18,7 @@ public class UserInformation {
     private String address;
     private String maritalStatus;
 
-    public UserInformation() {
+    public User() {
         this.id = UUID.randomUUID();
     }
 
